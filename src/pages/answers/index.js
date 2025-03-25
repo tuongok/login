@@ -9,8 +9,6 @@ function Answers(){
         const fetchapi = async () => {
             const topic = await gettopic();
             const answer = await getanswer();
-            console.log(answer);
-            console.log(topic);
             let result = [];
             for(let i=0;i<answer.length;i++){
                result.push({
@@ -23,7 +21,6 @@ function Answers(){
         };
         fetchapi();
     },[])
-    console.log(dataanswer);
     return(
         <>
         <h1>Các bài đã làm xong  </h1>

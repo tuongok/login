@@ -24,7 +24,7 @@ function Layout() {
                                     <NavLink to="/topic">Chủ đề</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/answers">Trả lời</NavLink>
+                                    <NavLink to="/answers">Bài đã làm </NavLink>
                                 </li>
                             </>)}
                         </ul>

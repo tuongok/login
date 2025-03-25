@@ -18,7 +18,8 @@ function Register(){
             fullName:name,
             email:email,
             password:password,
-            token:randomtoken()
+            token:randomtoken(),
+            userId:randomtoken(),
         }
         const result=await register(option);
         if(result){

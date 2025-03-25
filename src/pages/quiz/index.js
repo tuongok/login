@@ -40,7 +40,7 @@ function Quiz() {
         }
         
         let options={
-            userId:parseInt(getCookie("id")),
+            userId:getCookie("userId"),
             topicId:parseInt(params.id),
             answers:selectedanswers
         };

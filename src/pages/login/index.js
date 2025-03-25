@@ -21,6 +21,7 @@ function Login(){
         setCookie("fullName",res[0].fullName,1);
         setCookie("email",res[0].email,1);
         setCookie("token",res[0].token,1);
+        setCookie("userId",res[0].userId,1);
         dispatch(login(true));
         navigate("/");
        }
