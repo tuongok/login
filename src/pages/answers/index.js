@@ -26,7 +26,7 @@ function Answers(){
     console.log(dataanswer);
     return(
         <>
-        <h1>Các bàii đã làm xong  </h1>
+        <h1>Các bài đã làm xong  </h1>
         <table>
             <thead>
                 <tr>
@@ -40,7 +40,7 @@ function Answers(){
                     <tr key={item.id}>
                     <td>{item.id}</td>
                     <td>{item.name}</td>
-                    <td><Link to={"/result/"+item.id} >XXem chi tiết</Link>  </td>
+                    <td><Link to={"/result/"+item.id} >Xem chi tiết</Link>  </td>
                 </tr>
                 ))}
             </tbody>

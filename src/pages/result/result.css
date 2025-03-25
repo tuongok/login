@@ -5,7 +5,7 @@
     border-radius: 5px;
 }
 .result__tag--false{
-    color:rgb(255, 0, 0);
+    color:rgb(230, 2, 2);
     background: rgb(229, 216, 216);
     padding: 3px;
     border-radius: 5px;
@@ -31,4 +31,7 @@
 }
 .link a:hover{
     color:white ;
+}
+.score-display{
+    font-size: 30px;
 }
